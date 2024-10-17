@@ -23,12 +23,19 @@ The chosen artifact for this section is the Event Notification App I originally 
 
 Enhancements done:
 -Updated comments throughout
+
 - Updated UI Design for all screens in app to enhance clarity
+  
 -Updated Icons
+
 -Changed SQL database to only accept event details, created second database to securely hold login credentials
+
 - Fixed SMS permission request button
+  
 -Enabled notification request to be sent to all devices with API 26 or later (Pre-API26 devices will have it enabled by default.)
+
 -Fixed central recyclerview to show events and store them when the user exits the app
+
 -Updated event screen to automatically load details into text boxes when editing
 
 Reflecting on the enhancements done, I learned a lot about Android Development, SQL databases, and the Java language. I faced a lot of challenges when trying to use android studio because it is not an IDE that I use regularly and testing was difficult, especially when using a virtual phone. I was able to get around these hurdles by reviewing guides and eventually switching to test on the physical phone, and as a result I was able to both add a new IDE to my tool belt and gain experience in testing with physical devices.  In conjunction to using a new IDE, I also needed to relearn Java-SQL interactions to properly query SQL databases, and thus have become comfortable with making and working with local SQL databases.
@@ -43,11 +50,17 @@ Algorithms and Data Structure
 
 This artifact chosen for this section is the Appointment Service Project I originally developed for CS 320: Software Testing, Automation, and Quality Assurance. I chose this artifact to include because it demonstrates my knowledge of data structures, my ability to apply them effectively, and my skills in designing robust test cases to ensure quality software.
 The original project comprised four files. The first main file focused on defining the Appointment class, which included attributes such as appointment ID, date, and description, along with corresponding getters, setters, and validation checks. The second main file implemented an ArrayList-based Appointment Service, enabling users to create, read, update, and delete appointments in an arraylist. The remaining two files were test files for the Appointment and AppointmentService classes with built-in tests to validate the logic and boundary conditions of the service. 
+
 Enhancements done:
-- Introduced a HashMap data structure to compare to the original ArrayList implementation 
+
+- Introduced a HashMap data structure to compare to the original ArrayList implementation
+  
 -Expanded test cases to compare the efficiency between ArrayList and HashMap implementations, focusing on differences in time complexity and optimization
+
 -Added new tests specifically targeting the HashMap implementation to ensure that the new data structure was thoroughly validated.
+
 -Documented time complexity analysis in comments and reports to highlight the trade-offs between the two data structures for future reference.
+
 -Improved CRUD operations to reflect the optimized HashMap-based design and ensure backward compatibility with the original implementation.
 
 Through this enhancement process, I deepened my understanding of how data structures like ArrayLists and HashMaps impact application performance, especially for services that handle dynamic data. The project allowed me to explore the nuances of time complexity in a practical setting, and I learned how to make informed decisions when choosing data structures based on specific use cases. Implementing a HashMap required careful consideration to maintain the same functionality as the ArrayList version, which challenged my ability to refactor code without introducing new bugs.
@@ -70,9 +83,13 @@ The original artifact was built using Python with the Dash framework, which disp
 Enhancements Done:
 
 -Rewrote the entire application using JavaScript, integrating libraries such as React, Plotly.js, and Leaflet.js to maintain the original functionality.
+
 -Separated the frontend and backend logic to follow a modular architecture, ensuring easier maintenance and scalability.
+
 -Exported the dataset into a .txt file, separating it from the code itself.
+
 -Refactored visual elements, such as charts and tables, to improve interactivity and provide a smoother user experience.
+
 -Documented the codebase thoroughly
 
 Rewriting the application from Python to JavaScript was both challenging and rewarding. It required me to learn and apply several new libraries and frameworks, which expanded my knowledge of JavaScript-based development and full-stack web applications. Adapting the code to a new framework emphasized the importance of modularity and separation of concerns, which are critical for maintaining and scaling modern web applications.
