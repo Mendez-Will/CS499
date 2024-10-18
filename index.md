@@ -1,25 +1,28 @@
 Professional  self assessment
 
-__Program reflection:__
+<div style="text-align: center; margin-bottom: 20px;">
+  <h1>Professional Self-Assesment</h1>
+</div>
 
 Hello, my name is Wilfredo Mendez III. Throughout my journey in Southern New Hampshire University’s (SNHU) Computer Science program, I have developed a broad range of technical and professional skills that have readied me for a career in the computer science field, including gaining proficiency in multiple programming languages, collaborative teamwork experience, and the ability to design and develop professional, industry-standard projects.
+
 The enhancements showcased in this ePortfolio reflect my growth as a software engineer and readiness for a career in computer science. Each enhancement aligns with the program’s outcomes, showcasing my strengths in key areas such as software engineering, data structures, algorithms and datasets, and database management. My portfolio reflects not only my technical competence but also my ability to communicate effectively with stakeholders and collaborate in team-based environments—skills essential for success in the software industry.
 
-__Professional skills:__
+### **Professional Skills**
 
-*Team Environments:*
+#### *Team Environments:*
 
 Throughout my coursework, I developed strong collaborative skills by working with peers on remote team-based projects, gaining experience using tools such as GitHub to work on projects with peers, Slack for asynchronous communication, and Zoom for real time meetings and development. These experiences prepared me to thrive in distributed work environments, which are becoming increasingly common in the software industry. I developed the ability to share responsibilities, prevent miscommunication, and meet deadlines, all of which are crucial in professional team settings.
 
-*Communicating with Stakeholders:*
+#### *Communicating with Stakeholders:*
 
 Effective communication with stakeholders is crucial. I learned to keep this in mind in the CS250: software Development Lifecycle course specifically, I took on roles as different members in a SCRUM environment such as product owner and developer.  This project helped me learn how to convey technical concepts in a clear and concise manner, ensuring alignment between team members and stakeholders. With the practice in these environments, I became adept at tailoring my communication to meet different audiences' needs, balancing technical precision with accessibility.
 
-*Software engineering and Databases:*
+#### *Software engineering and Databases:*
 
 The program gave me hands-on experience with software engineering and database management. I gained experience with using databases such as MongoDB and SQL, and I have become familiar with relational and object oriented database designs and how to work with projects in both fashions. Creating custom UI models for these databases enhanced my front-end development skills across multiple languages. In CS 465: Full Stack Development, I built a full-stack web application, giving me practical experience with both front and back-end systems. These principles are exemplified in the Software and Engineering Enhancement, where I did a complete overhaul on the database setup and UI of the Event Notification App.
 
-*Security:*
+#### *Security:*
 
 Security has been a consistent focus throughout the Computer Science program. Throughout my courses I learned to identify and mitigate vulnerabilities related to input handling, memory management, and data validation. In CS305 Software Security, I learned the importance of bounds checking, input sanitization, and proper handling of arrays, pointers, and strings. This knowledge has allowed me to develop software with a security-first mindset, preventing potential exploits like buffer overflows or arbitrary code execution. My capstone project enhancements integrate these principles, showcasing my commitment to building secure and resilient software solutions.
 
@@ -32,23 +35,23 @@ __Software Design and Engineering__
 The chosen artifact for this section is the Event Notification App I originally created for the CS360: Mobile Architect & Programming course. This app allowed users to input events, store them, and receive notifications when the event occurred, all secured by a login system. When I first took the course I was initially unfamiliar with mobile development and Java, so when I completed the course the event app had many areas for improvement. 
  I chose this app as the artifact because it showcases my growth as a developer and highlights my skills in both front and backend developments. The app itself is comprised of four screens; one to manage login and account creation, one to input and edit events, one to show all of the events, and one to allow the user to grant permissions for notifications from the app on the input time and date. 
 
-*Enhancements done:*
+*List of Enhancements performed:*
 
-- Updated comments throughout
+- Updated comments throughout all files, including header files and in-line comments.
 
-- Updated UI Design for all screens in app to enhance clarity
+- Updated UI Design for all screens in app to enhance clarity and ease of use.
   
-- Updated Icons
+- Updated Icons for better represenation of screens and actions. 
 
-- Changed SQL database to only accept event details, created second database to securely hold login credentials
+- Changed SQL database to only accept event details, created second database to securely hold login credentials.
 
-- Fixed SMS permission request button
+- Fixed SMS permission request button to send permission requests.
   
 - Enabled notification request to be sent to all devices with API 26 or later (Pre-API26 devices will have it enabled by default.)
 
-- Fixed central recyclerview to show events and store them when the user exits the app
+- Fixed central recyclerview layout to show events immendiately after creation.
 
-- Updated event screen to automatically load details into text boxes when editing
+- Updated event screen to automatically load details into text boxes when editing.
 
 Reflecting on the enhancements done, I learned a lot about Android Development, SQL databases, and the Java language. I faced a lot of challenges when trying to use android studio because it is not an IDE that I use regularly and testing was difficult, especially when using a virtual phone. I was able to get around these hurdles by reviewing guides and eventually switching to test on the physical phone, and as a result I was able to both add a new IDE to my tool belt and gain experience in testing with physical devices.  In conjunction to using a new IDE, I also needed to relearn Java-SQL interactions to properly query SQL databases, and thus have become comfortable with making and working with local SQL databases.
 The finished enhancement demonstrates my ability to analyze weaknesses in an existing project and make improvements that align with modern software engineering practices. By tackling both front-end UI elements and back-end database design, I showcased my versatility as a developer. This project now serves as a testament to my technical skills and my ability to improve software iteratively based on feedback and new knowledge.
@@ -65,7 +68,7 @@ I have developed a security mindset that anticipates adversarial exploits in sof
 This artifact chosen for this section is the Appointment Service Project I originally developed for CS 320: Software Testing, Automation, and Quality Assurance. I chose this artifact to include because it demonstrates my knowledge of data structures, my ability to apply them effectively, and my skills in designing robust test cases to ensure quality software.
 The original project comprised four files. The first main file focused on defining the Appointment class, which included attributes such as appointment ID, date, and description, along with corresponding getters, setters, and validation checks. The second main file implemented an ArrayList-based Appointment Service, enabling users to create, read, update, and delete appointments in an arraylist. The remaining two files were test files for the Appointment and AppointmentService classes with built-in tests to validate the logic and boundary conditions of the service. 
 
-*Enhancements done:*
+*List of Enhancements performed:*
 
 - Introduced a HashMap data structure to compare to the original ArrayList implementation
   
@@ -96,7 +99,7 @@ __Databases:__
 The artifact chosen for this section is the Animal Shelter Dashboard Application that I originally developed for CS 340: Advanced Programming Concepts. I chose this project because it highlights my ability to work with databases, develop full-stack applications, and apply programming concepts across multiple languages and frameworks. I selected this artifact because it reflects my versatility as a developer, showcasing how I can transition between different programming environments and enhance applications based on project needs.
 The original artifact was built using Python with the Dash framework, which displayed a preset list of animals from a fictional animal shelter. The data was visualized in three main formats: a pie chart representing animal distributions, a table listing animal details, and an interactive map to show the animal's location.
 
-*Enhancements Done:*
+*List of Enhancements performed:*
 
 - Rewrote the entire application using JavaScript, integrating libraries such as React, Plotly.js, and Leaflet.js to maintain the original functionality.
 
