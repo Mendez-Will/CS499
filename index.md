@@ -1,5 +1,3 @@
-Professional  self assessment
-
 <div style="text-align: center; margin-bottom: 20px;">
   <h1>Professional Self-Assesment</h1>
 </div>
@@ -50,6 +48,7 @@ For this portfolio, I have compiled three projects from the program to improve u
 </div>
 
 The chosen artifact for this section is the Event Notification App I originally created for the CS360: Mobile Architect & Programming course. This app allowed users to input events, store them, and receive notifications when the event occurred, all secured by a login system. When I first took the course I was initially unfamiliar with mobile development and Java, so when I completed the course the event app had many areas for improvement. 
+
  I chose this app as the artifact because it showcases my growth as a developer and highlights my skills in both front and backend developments. The app itself is comprised of four screens; one to manage login and account creation, one to input and edit events, one to show all of the events, and one to allow the user to grant permissions for notifications from the app on the input time and date. 
 
 *List of Enhancements performed:*
@@ -71,13 +70,15 @@ The chosen artifact for this section is the Event Notification App I originally 
 - Updated event screen to automatically load details into text boxes when editing.
 
 Reflecting on the enhancements done, I learned a lot about Android Development, SQL databases, and the Java language. I faced a lot of challenges when trying to use android studio because it is not an IDE that I use regularly and testing was difficult, especially when using a virtual phone. I was able to get around these hurdles by reviewing guides and eventually switching to test on the physical phone, and as a result I was able to both add a new IDE to my tool belt and gain experience in testing with physical devices.  In conjunction to using a new IDE, I also needed to relearn Java-SQL interactions to properly query SQL databases, and thus have become comfortable with making and working with local SQL databases.
+
 The finished enhancement demonstrates my ability to analyze weaknesses in an existing project and make improvements that align with modern software engineering practices. By tackling both front-end UI elements and back-end database design, I showcased my versatility as a developer. This project now serves as a testament to my technical skills and my ability to improve software iteratively based on feedback and new knowledge.
 
 *Course outcomes met:*
 
-With this enhancement, I have demonstrated course outcomes 4 and 5:
+With this enhancement, I have demonstrated course outcomes 3 and 5:
 
-I have demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This artifact required using Android Studio, SQLite, and Java to implement a robust event notification app. The improvements focused on refining the user experience, such as updating the UI design, enabling notifications across multiple Android API levels, and managing event data more efficiently with better database handling. These changes showcase my ability to iteratively improve software and adopt innovative practices that align with real-world industry goals.
+I have demonstrated an ability to design and evaluate computing solutions that solve given problems using algorithmic principles and computer science practices and standards appropriate to the solution while managing the trade-offs involved in design choices. This artifact required using Android Studio, SQLite, and Java to implement a robust event notification app. The improvements focused on refining the user experience, such as updating the UI design, enabling notifications across multiple Android API levels, and managing event data more efficiently with better database handling. These changes showcase my ability to iteratively improve software and adopt innovative practices that align with real-world industry goals.
+
 I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  Security was at the forefront of development in this app, and where a lot of improvement was done to make it more secure. One of the key improvements was separating the login credentials from the event database, preventing unauthorized access to sensitive information. I also ensured there were no hardcoded values (magic numbers) that could leave the system vulnerable to reverse engineering or exploitation. The app now follows best security practices by requesting permissions dynamically, ensuring compliance with Android API requirements, and validating inputs to prevent unauthorized actions or data corruption.
 
 <div style="text-align: center; margin-bottom: 10px;">
@@ -85,6 +86,8 @@ I have developed a security mindset that anticipates adversarial exploits in sof
 </div>
 
 This artifact chosen for this section is the Appointment Service Project I originally developed for CS 320: Software Testing, Automation, and Quality Assurance. I chose this artifact to include because it demonstrates my knowledge of data structures, my ability to apply them effectively, and my skills in designing robust test cases to ensure quality software.
+
+
 The original project comprised four files. The first main file focused on defining the Appointment class, which included attributes such as appointment ID, date, and description, along with corresponding getters, setters, and validation checks. The second main file implemented an ArrayList-based Appointment Service, enabling users to create, read, update, and delete appointments in an arraylist. The remaining two files were test files for the Appointment and AppointmentService classes with built-in tests to validate the logic and boundary conditions of the service. 
 
 ***List of Enhancements performed:***
@@ -107,11 +110,12 @@ Ultimately, this project demonstrates my ability to analyze, optimize, and valid
 
 ***Outcomes met:***
 
-With this artifact enhancement I have demonstrated course outcomes 1 and 2;
+With this artifact enhancement I have demonstrated course outcomes 3 and 4;
 
-I have employed strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.  The improvements made reflect collaboration strategies in software design, such as writing detailed comments, documenting performance trade-offs, and structuring tests in a way that future developers could easily understand and build upon. By providing thorough documentation of time complexity analyses and benchmarking results, I ensured the artifact could serve as a shared resource for decision-making about data structure selection.
+I designed and evaluated computing solutions that address specific problems using algorithmic principles and appropriate computer science practices, all while managing the trade-offs inherent in design choices. This was achieved by evaluating the trade-offs between ArrayList and HashMap for storing and retrieving appointments. While the ArrayList’s ordered nature was beneficial in the original implementation, the HashMap provided superior performance for retrieval and deletion operations. I ensured the correctness and efficiency of the new solution through timing tests and documented my decisions in the code comments to reflect a deep understanding of algorithmic choices and data structure optimization.
 
-I have designed, developed, and delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.  The communications to future developers in the artifact are are technically sound and adapted to the needs of developers or project stakeholders by explaining why certain data structures were used, the trade-offs between ArrayList and HashMap, and how to replicate tests. The focus on coherent communication highlights my ability to document design choices effectively, ensuring that both technical and non-technical audiences can understand the rationale behind the optimizations.
+I demonstrated my ability to employ well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and meet industry-specific goals. This outcome was met through the incorporation of nanoTime-based performance testing into the code. Although I had limited experience with precise performance measurement tools prior to this project, I learned to use them effectively to assess the efficiency of the new structure. Furthermore, I modified the test cases to thoroughly evaluate both the HashMap and ArrayList, ensuring their boundaries were respected. This use of innovative testing techniques showcases my ability to apply appropriate tools and strategies to create value through optimized code.
+
 
 <div style="text-align: center; margin-bottom: 10px;">
   <h1>Databases</h1>
@@ -126,18 +130,18 @@ The original artifact was built using Python with the Dash framework, which disp
 
 - Separated the frontend and backend logic to follow a modular architecture, ensuring easier maintenance and scalability.
 
-- Exported the dataset into a .txt file, separating it from the code itself.
+-  Exported the dataset into a .txt file, effectively separating it from the codebase. This enhances portability and adaptability for future developers who may wish to modify or expand upon the application.
 
 - Refactored visual elements, such as charts and tables, to improve interactivity and provide a smoother user experience.
 
-- Documented the codebase thoroughly
+- Documented the codebase extensively, providing guidance for future developers on how to connect the code to databases and utilize the application effectively.
 
 Rewriting the application from Python to JavaScript was both challenging and rewarding. It required me to learn and apply several new libraries and frameworks, which expanded my knowledge of JavaScript-based development and full-stack web applications. Adapting the code to a new framework emphasized the importance of modularity and separation of concerns, which are critical for maintaining and scaling modern web applications.
 
 ***Outcomes met:***
 
-With this enhancement I have met outcomes 3 and 1;
+With this enhancement I have met outcomes 4 and 1;
 
 I have employed strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.  By carefully restructuring the application to follow a modular architecture, I ensured that the frontend and backend components are easier to understand, maintain, and improve. This modularity allows other developers to collaborate more effectively, making it straightforward for them to contribute new features or connect the system to external databases in the future. The clear separation of concerns also ensures that stakeholders can make decisions more effectively, understanding how individual components contribute to the system as a whole.
 
-I have designed and evaluated computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.  My decision to implement React for the frontend, along with Plotly.js and Leaflet.js for charts and maps, reflects a strategic use of modern frameworks that offer greater flexibility and responsiveness.
+I demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.  My decision to implement React for the frontend, along with Plotly.js and Leaflet.js for charts and maps, reflects a strategic use of modern frameworks that offer greater flexibility and responsiveness.This transition not only improves application functionality but also positions the codebase as a strong foundation for future development.
