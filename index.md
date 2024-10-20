@@ -65,6 +65,10 @@ For this portfolio, I have compiled three projects from the program to improve u
   </a>
 </div>
 
+<div style="margin-top: 20px;">
+  <p>
+  </p>
+</div>
 
 
 
@@ -102,20 +106,32 @@ I have demonstrated an ability to design and evaluate computing solutions that s
 
 I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  Security was at the forefront of development in this app, and where a lot of improvement was done to make it more secure. One of the key improvements was separating the login credentials from the event database, preventing unauthorized access to sensitive information. I also ensured there were no hardcoded values (magic numbers) that could leave the system vulnerable to reverse engineering or exploitation. The app now follows best security practices by requesting permissions dynamically, ensuring compliance with Android API requirements, and validating inputs to prevent unauthorized actions or data corruption.
 
-<div style="text-align: center; margin-bottom: 10px;">
-  <h1><a href="EnhancementTwo" style="text-decoration: none; color: inherit;">Data Structure and Algorithms</a></h1>
+<div style="text-align: center; margin-bottom: 30px;">
+  <h1>Data Structure and Algorithms</h1>
 </div>
 
-<div style="text-align: center; margin-bottom: 10px;">
-  <h1>
-    <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancementTwo" 
-       target="_blank" 
-       style="text-decoration: none; color: inherit;">
-      Data Structure and Algorithms
-    </a>
-  </h1>
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancementTwo" 
+     target="_blank" 
+     style="text-decoration: none;">
+    <button style="
+      padding: 15px 30px; 
+      font-size: 18px; 
+      background-color: #4CAF50; 
+      color: white; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer;
+      transition: background-color 0.3s;">
+      View Artifact
+    </button>
+  </a>
 </div>
 
+<div style="margin-top: 20px;">
+  <p>
+  </p>
+</div>
 
 This artifact chosen for this section is the Appointment Service Project I originally developed for CS 320: Software Testing, Automation, and Quality Assurance. I chose this artifact to include because it demonstrates my knowledge of data structures, my ability to apply them effectively, and my skills in designing robust test cases to ensure quality software.
 
@@ -148,14 +164,31 @@ I designed and evaluated computing solutions that address specific problems usin
 
 I demonstrated my ability to employ well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and meet industry-specific goals. This outcome was met through the incorporation of nanoTime-based performance testing into the code. Although I had limited experience with precise performance measurement tools prior to this project, I learned to use them effectively to assess the efficiency of the new structure. Furthermore, I modified the test cases to thoroughly evaluate both the HashMap and ArrayList, ensuring their boundaries were respected. This use of innovative testing techniques showcases my ability to apply appropriate tools and strategies to create value through optimized code.
 
-<div style="text-align: center; margin-bottom: 10px;">
-  <h1>
-    <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancementThree" 
-       target="_blank" 
-       style="text-decoration: none; color: inherit;">
-      Databases
-    </a>
-  </h1>
+<div style="text-align: center; margin-bottom: 30px;">
+  <h1>Databases</h1>
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancemenThree" 
+     target="_blank" 
+     style="text-decoration: none;">
+    <button style="
+      padding: 15px 30px; 
+      font-size: 18px; 
+      background-color: #4CAF50; 
+      color: white; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer;
+      transition: background-color 0.3s;">
+      View Artifact
+    </button>
+  </a>
+</div>
+
+<div style="margin-top: 20px;">
+  <p>
+  </p>
 </div>
 
 The artifact chosen for this section is the Animal Shelter Dashboard Application that I originally developed for CS 340: Advanced Programming Concepts. I chose this project because it highlights my ability to work with databases, develop full-stack applications, and apply programming concepts across multiple languages and frameworks. I selected this artifact because it reflects my versatility as a developer, showcasing how I can transition between different programming environments and enhance applications based on project needs.
