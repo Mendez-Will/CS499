@@ -44,8 +44,15 @@ Security has been a consistent focus throughout the Computer Science program. Th
 For this portfolio, I have compiled three projects from the program to improve upon three fields: Software Design and Engineering, Algorithms and Data Structure, and Databases.  These artifact enhancements aim to showcase my growth as a software developer and my finished projects.
 
 <div style="text-align: center; margin-bottom: 10px;">
-  <h1><a href="EnhancementOne" style="text-decoration: none; color: inherit;">Software Design and Engineering</a></h1>
+  <h1>
+    <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancementOne" 
+       target="_blank" 
+       style="text-decoration: none; color: inherit;">
+      Software Design and Engineering
+    </a>
+  </h1>
 </div>
+
 
 The chosen artifact for this section is the Event Notification App I originally created for the CS360: Mobile Architect & Programming course. This app allowed users to input events, store them, and receive notifications when the event occurred, all secured by a login system. When I first took the course I was initially unfamiliar with mobile development and Java, so when I completed the course the event app had many areas for improvement. 
 
