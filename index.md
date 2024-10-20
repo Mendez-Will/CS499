@@ -43,15 +43,28 @@ Security has been a consistent focus throughout the Computer Science program. Th
 
 For this portfolio, I have compiled three projects from the program to improve upon three fields: Software Design and Engineering, Algorithms and Data Structure, and Databases.  These artifact enhancements aim to showcase my growth as a software developer and my finished projects.
 
-<div style="text-align: center; margin-bottom: 10px;">
-  <h1>
-    <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancementOne" 
-       target="_blank" 
-       style="text-decoration: none; color: inherit;">
-      Software Design and Engineering
-    </a>
-  </h1>
+<div style="text-align: center; margin-bottom: 30px;">
+  <h1>Software Design and Engineering</h1>
 </div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancementOne" 
+     target="_blank" 
+     style="text-decoration: none;">
+    <button style="
+      padding: 15px 30px; 
+      font-size: 18px; 
+      background-color: #4CAF50; 
+      color: white; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer;
+      transition: background-color 0.3s;">
+      View Artifact
+    </button>
+  </a>
+</div>
+
 
 
 
