@@ -54,6 +54,7 @@ For this portfolio, I have compiled three projects from the program to improve u
 </div>
 
 
+
 The chosen artifact for this section is the Event Notification App I originally created for the CS360: Mobile Architect & Programming course. This app allowed users to input events, store them, and receive notifications when the event occurred, all secured by a login system. When I first took the course I was initially unfamiliar with mobile development and Java, so when I completed the course the event app had many areas for improvement. 
 
  I chose this app as the artifact because it showcases my growth as a developer and highlights my skills in both front and backend developments. The app itself is comprised of four screens; one to manage login and account creation, one to input and edit events, one to show all of the events, and one to allow the user to grant permissions for notifications from the app on the input time and date. 
@@ -92,6 +93,17 @@ I have developed a security mindset that anticipates adversarial exploits in sof
   <h1><a href="EnhancementTwo" style="text-decoration: none; color: inherit;">Data Structure and Algorithms</a></h1>
 </div>
 
+<div style="text-align: center; margin-bottom: 10px;">
+  <h1>
+    <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancementTwo" 
+       target="_blank" 
+       style="text-decoration: none; color: inherit;">
+      Data Structure and Algorithms
+    </a>
+  </h1>
+</div>
+
+
 This artifact chosen for this section is the Appointment Service Project I originally developed for CS 320: Software Testing, Automation, and Quality Assurance. I chose this artifact to include because it demonstrates my knowledge of data structures, my ability to apply them effectively, and my skills in designing robust test cases to ensure quality software.
 
 
@@ -124,7 +136,13 @@ I designed and evaluated computing solutions that address specific problems usin
 I demonstrated my ability to employ well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and meet industry-specific goals. This outcome was met through the incorporation of nanoTime-based performance testing into the code. Although I had limited experience with precise performance measurement tools prior to this project, I learned to use them effectively to assess the efficiency of the new structure. Furthermore, I modified the test cases to thoroughly evaluate both the HashMap and ArrayList, ensuring their boundaries were respected. This use of innovative testing techniques showcases my ability to apply appropriate tools and strategies to create value through optimized code.
 
 <div style="text-align: center; margin-bottom: 10px;">
-  <h1><a href="EnhancementThree" style="text-decoration: none; color: inherit;">Databases</a></h1>
+  <h1>
+    <a href="https://github.com/Mendez-Will/CS499/tree/main/EnhancementThree" 
+       target="_blank" 
+       style="text-decoration: none; color: inherit;">
+      Databases
+    </a>
+  </h1>
 </div>
 
 The artifact chosen for this section is the Animal Shelter Dashboard Application that I originally developed for CS 340: Advanced Programming Concepts. I chose this project because it highlights my ability to work with databases, develop full-stack applications, and apply programming concepts across multiple languages and frameworks. I selected this artifact because it reflects my versatility as a developer, showcasing how I can transition between different programming environments and enhance applications based on project needs.
